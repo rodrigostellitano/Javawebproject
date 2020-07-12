@@ -29,7 +29,7 @@ public abstract class AbstractDao<T, PK extends Serializable> {
 		entityManager.persist(entity);
 	}
 	
-	public void upade(T entity) {
+	public void update(T entity) {
 		entityManager.merge(entity);
 	}
 	
