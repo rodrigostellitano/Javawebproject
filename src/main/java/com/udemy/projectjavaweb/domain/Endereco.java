@@ -1,10 +1,14 @@
 package com.udemy.projectjavaweb.domain;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
+import javax.persistence.Table;
 
 @SuppressWarnings("serial")
+@Entity
+@Table(name = "ENDERECOS")
 public abstract class Endereco extends AbstractEntity<Long> {
 
 	

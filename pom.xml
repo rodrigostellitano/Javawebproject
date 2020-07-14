@@ -58,19 +58,24 @@
 		
 		</dependency>
 
-
-
+	
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>webjars-locator-core</artifactId>
 		</dependency>
 
 		<dependency>
+    <groupId>org.thymeleaf.extras</groupId>
+    <artifactId>thymeleaf-extras-springsecurity3</artifactId>
+    <version>3.0.0.BETA01</version>
+</dependency>
+		
+		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
+            <version>8.0.17</version>
 			<scope>runtime</scope>
 		</dependency>
-		
 
 
 
